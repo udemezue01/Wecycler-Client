@@ -31,8 +31,8 @@
 			<div class="bg-gray-800 w-1/6">
 				
 				<div class="mt-0 ">
-					<a href="" class="block text-gray-100 px-4 py-2 font-bold hover:bg-gray-700"> Dashboard </a>
-					<a href="" class = "block text-gray-100 px-4 py-2 hover:bg-gray-700">  Trash</a>
+					<a href="" class="block text-gray-100 px-4 py-2 font-semi-bold rounded-lg hover:bg-gray-700"> Dashboard </a>
+					<a href="" class = "block text-gray-100 px-4 py-2 rounded hover:bg-gray-700">  Trash</a>
 					<a href="" class = "block text-gray-100 px-4 py-2 hover:bg-gray-700">  Routes</a>
 					<a href="" class = "block text-gray-100 px-4 py-2 hover:bg-gray-700">  District</a>
 					<a href="" class = "block text-gray-100 px-4 py-2 hover:bg-gray-700">  Depot</a>
