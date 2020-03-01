@@ -1,44 +1,44 @@
 <template>
-  <div class="">
+  <div class="h-screen">
 
-  	<nav class="flex justify-between bg-indigo-600 px-4 py-5 shadow-lg">
-  		
-  			<div>
+        <!-- The navigational Bar -->
 
-  				<p class="font-bold text-gray-100"> Wecycler</p>
-  				
-  			</div>
+    <nav class="flex justify-between bg-gray-100 px-2 py-3 shadow-md">
+      <div class="px-4">
+        <a href=""  class="px-2 py-2 -mt-2"> Wecycler</a>
+        
+      </div>
+
+      <div class="px-4">
+        
+        <a href="" class="px-2 py-1 inline-block bg-indigo-700 text-white rounded-lg text-sm "> Get Started</a>
+      </div>
+      
+
+    </nav>
+
+         <!--  End of the navigational Bar -->
+
+         <!-- The Hero section -->
+
+      <div class="flex">
+
+        <div class="w-1/2">
+          
+
+        </div>
+
+        <div class="w-1/2" >
+          
+
+        </div>
+        
 
 
-  			<div>
-  				
-  				<a href="" class="text-gray-500 px-4"> Login</a>
+      </div>
+            <!--   End of the Hero Section -->
 
-  				<a href=""> Sign Up</a>
 
-  			</div>
-
-  	</nav>
-
-<!-- end of the navigational bar -->
-
-<!-- the hero section -->
-
-<div class="flex">
-	
-	<div>
-		
-
-	</div>
-
-	<div>
-		
-		
-	</div>
-
-	</div>
-
-<!-- end of the hero section -->
   
   </div>
 </template>
