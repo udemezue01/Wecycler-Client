@@ -4,15 +4,24 @@ import Home from '../views/Home.vue'
 import Landing from '../views/Landing.vue'
 
 import Dashboard from '../views/Dashboard.vue'
+import Login from '../views/Login.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
+
+{
+  path: '/',
+    name: 'Login',
+    component: Login
+  },
   {
-    path: '/',
+    path: '/login',
     name: 'Landing',
     component: Landing
   },
+
+
   {
     path: '/dashboard',
     name: 'Dashboard',

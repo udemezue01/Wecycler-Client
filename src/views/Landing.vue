@@ -1,17 +1,17 @@
 <template>
-  <div class="h-screen">
+  <div class="">
 
         <!-- The navigational Bar -->
 
-    <nav class="flex justify-between bg-gray-100 px-2 py-3 shadow-md">
+    <nav class="flex justify-between bg-white px-2 py-4 shadow-sm sticky top-0">
       <div class="px-4">
-        <a href=""  class="px-2 py-2 -mt-2"> Wecycler</a>
+        <img src=" ./img/logo.svg" class="h-8 w-64">
         
       </div>
 
       <div class="px-4">
         
-        <a href="" class="px-2 py-1 inline-block bg-indigo-700 text-white rounded-lg text-sm "> Get Started</a>
+        <router-link to = "/login"class="px-2 py-1 inline-block bg-green-100 text-white rounded-lg text-sm font-semibold shadow-sm uppercase font-mono"> Get Started</router-link>
       </div>
       
 
@@ -21,22 +21,54 @@
 
          <!-- The Hero section -->
 
-      <div class="flex">
+         <div class="flex h-full">
 
-        <div class="w-1/2">
-          
+          <div class="w-1/2 bg-gray-100">
 
-        </div>
+            <div class="mx-auto py-3">
+              
+              <p class="font-sans font-black text-4xl text-center text-indigo-700"> Relive the Environment</p>
+            </div>
+            
+          </div>
+           
+          <div class="w-1/2">
+            
+            <img src="/img/Wecyclerone.jpg" class="inset-0 h-full w-full object-cover object-center">
 
-        <div class="w-1/2" >
-          
+          </div>
 
-        </div>
-        
+         </div>
 
-
-      </div>
+      
             <!--   End of the Hero Section -->
+
+            <section class="bg-gray-300 px-12 h-64">
+
+              <div class="px-4">  <p class="font-black">  Our Vision </p></div>
+
+              <div class="flex">
+
+                <div class="w-1/2">
+                  
+                    <img src="/img/Wecyclerone.jpg" class="inset-0 h-8 w-full object-cover object-center">
+                </div>
+
+
+                <div class="w-1/2">
+                  
+                      <div class="">
+                        
+
+                      </div>
+
+                </div>
+                
+
+              </div>
+              
+
+            </section>
 
 
   
