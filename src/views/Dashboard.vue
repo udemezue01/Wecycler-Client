@@ -9,14 +9,14 @@
 
 		<nav class="sticky top-0 flex justify-between bg-white px-12 py-4 shadow-md ">
 			
-			<div>
-				<p class="font-black"> Wecycler</p>
+			<div class="flex">
+				<img src="/img/logo.svg" class="h-8 w-24"> 
 
 			</div>
 
-
 			<div>
-				<a href="">  </a>
+				<a href="">
+  </a>
 				<a href="">  </a>
 				<a href="" class="sans-serif font-semibold"> Logout</a>
 				
