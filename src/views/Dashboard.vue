@@ -43,7 +43,7 @@
 							<path d="M20.4878 9H15V3.5123C17.5572 4.41613 19.5839 6.44285 20.4878 9Z" stroke="#f7fafc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 							</svg>
 
-						<span class="px-2 font-semibold text-gray-100"> Analytics</span>
+						<span class="px-2 font-semibold text-gray-100"> Performance</span>
 
 						</span>
 						
@@ -98,18 +98,19 @@
 							<path d="M19 7L18.1327 19.1425C18.0579 20.1891 17.187 21 16.1378 21H7.86224C6.81296 21 5.94208 20.1891 5.86732 19.1425L5 7M10 11V17M14 11V17M15 7V4C15 3.44772 14.5523 3 14 3H10C9.44772 3 9 3.44772 9 4V7M4 7H20" stroke="#f7fafc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>  
 						</svg>
 
-						<span class="px-2 font-semibold text-gray-100"> Recycle</span>
+						<span class="px-2 font-semibold text-gray-100"> Households</span>
 
 						</span>
-						<span class="font-semibold text-white inline-block">+ 3</span>
+					
 					
 					
 					</a>
 					<a href="" class = "block px-12 py-2 rounded-lg flex items-center justify-between hover:bg-gray-700"> 
 
 						<span class="inline-flex">
-						<svg class = "h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M19 7L18.1327 19.1425C18.0579 20.1891 17.187 21 16.1378 21H7.86224C6.81296 21 5.94208 20.1891 5.86732 19.1425L5 7M10 11V17M14 11V17M15 7V4C15 3.44772 14.5523 3 14 3H10C9.44772 3 9 3.44772 9 4V7M4 7H20" stroke="#f7fafc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>  
+					<svg class = "h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M17.6569 16.6569C16.7202 17.5935 14.7616 19.5521 13.4138 20.8999C12.6327 21.681 11.3677 21.6814 10.5866 20.9003C9.26234 19.576 7.34159 17.6553 6.34315 16.6569C3.21895 13.5327 3.21895 8.46734 6.34315 5.34315C9.46734 2.21895 14.5327 2.21895 17.6569 5.34315C20.781 8.46734 20.781 13.5327 17.6569 16.6569Z" stroke="#4A5568" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M15 11C15 12.6569 13.6569 14 12 14C10.3431 14 9 12.6569 9 11C9 9.34315 10.3431 8 12 8C13.6569 8 15 9.34315 15 11Z" stroke="#f7fafc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 						</svg>
 
 						<span class="px-2 font-semibold text-gray-100"> Locations</span>
