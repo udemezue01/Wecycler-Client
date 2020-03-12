@@ -38,10 +38,7 @@
 				<a href="" class = "block px-12 py-2 rounded-lg flex items-center justify-between hover:bg-gray-700"> 
 
 						<span class="inline-flex">
-						<svg class="h-5 w-5 " viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M11 3.05493C6.50005 3.55238 3 7.36745 3 12C3 16.9706 7.02944 21 12 21C16.6326 21 20.4476 17.5 20.9451 13H11V3.05493Z" stroke="#f7fafc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-							<path d="M20.4878 9H15V3.5123C17.5572 4.41613 19.5839 6.44285 20.4878 9Z" stroke="#f7fafc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-							</svg>
+						<svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg>
 
 						<span class="px-2 font-semibold text-gray-100"> Performance</span>
 
@@ -94,9 +91,7 @@
 					<a href="" class = "block px-12 py-2 rounded-lg flex items-center justify-between hover:bg-gray-700"> 
 
 						<span class="inline-flex">
-						<svg class = "h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M19 7L18.1327 19.1425C18.0579 20.1891 17.187 21 16.1378 21H7.86224C6.81296 21 5.94208 20.1891 5.86732 19.1425L5 7M10 11V17M14 11V17M15 7V4C15 3.44772 14.5523 3 14 3H10C9.44772 3 9 3.44772 9 4V7M4 7H20" stroke="#f7fafc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>  
-						</svg>
+						<svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
 
 						<span class="px-2 font-semibold text-gray-100"> Households</span>
 
@@ -122,7 +117,7 @@
 					</a>
 					<a href="" class="block text-gray-100 px-12 py-2 font-semibold rounded-lg hover:bg-gray-700">  Recycle</a>
 					<a href="" class="block text-gray-100 px-12 py-2 font-semibold rounded-lg hover:bg-gray-700">  Users</a>
-					<a href="" class="block text-gray-100 px-12 py-2 font-semibold rounded-lg hover:bg-gray-700">  Logout</a>
+					<a href="" class="block text-gray-100 px-12 py-2 font-semibold rounded-lg hover:bg-gray-700" v-on:click="logout">  Logout</a>
 
 
 				</div>
@@ -151,7 +146,30 @@
 
 
 
-<script >
+<script>
+
+export default{
+
+data(){
+
+	return{
+
+	}
+},
+
+methods:{
+
+	logout(){
+
+		localStorage.removeItem('token')
+
+		this.$router.push('/')
+	}
+}
+
+}
+
+
 	
 
 </script>

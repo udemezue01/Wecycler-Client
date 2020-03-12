@@ -8,14 +8,14 @@
       </h2>
      
     </div>
-    <form class="mt-8" action="#" method="POST">
+    <form class="mt-8" action="">
       <input type="hidden" name="remember" value="true" />
       <div class="rounded-md shadow-md">
         <div>
-          <input aria-label="Email address" name="email" type="email" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:shadow-outline-blue focus:border-blue-300 focus:z-10 sm:text-sm sm:leading-5" placeholder="Email address" />
+          <input aria-label="Email address" name="email" type="email" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:shadow-outline-blue focus:border-blue-300 focus:z-10 sm:text-sm sm:leading-5" placeholder="Email address" v-model="login.email"/>
         </div>
         <div class="-mt-px">
-          <input aria-label="Password" name="password" type="password" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:shadow-outline-blue focus:border-blue-300 focus:z-10 sm:text-sm sm:leading-5" placeholder="Password" />
+          <input aria-label="Password" name="password" type="password" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:shadow-outline-blue focus:border-blue-300 focus:z-10 sm:text-sm sm:leading-5" placeholder="Password" v-model = "login.password" />
         </div>
       </div>
 
@@ -35,7 +35,7 @@
       </div>
 
       <div class="mt-6">
-        <button type="submit" class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-purple-100 font-bold hover:bg-green-100 focus:outline-none focus:border-green-100 focus:shadow-outline-indigo active:bg-green-100 transition duration-150 ease-in-out">
+        <button type="submit" class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-purple-100 font-bold hover:bg-green-100 focus:outline-none focus:border-green-100 focus:shadow-outline-indigo active:bg-green-100 transition duration-150 ease-in-out" v-on:click.prevent = "userLogin">
           <span class="absolute left-0 inset-y pl-3">
             <svg class="h-5 w-5 text-white group-hover:text-green-100 transition ease-in-out duration-150" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" />
@@ -51,12 +51,19 @@
 
 <script>
 
+import { USER_LOGIN } from '../constant/mutation.js'
+
 
 export default {
   name: 'Login',
   data(){
     return{
 
+      login:{
+
+        email:"",
+        password:""
+      }
 
 
     }
@@ -65,7 +72,30 @@ export default {
 
 
   methods:{
+    userLogin(){
 
+      this.$apollo.mutate({
+
+        mutation: USER_LOGIN,
+        
+        variables:{
+          email:this.login.email,
+          password:this.login.password
+        }
+      }).then(resp => {
+
+        const token  = resp.data.tokenAuth.token
+
+        localStorage.setItem('token', token)
+
+        this.$router.push('/dashboard')
+
+
+
+      }).catch(err => {
+        localStorage.removeItem('token')
+      })
+    }
 
 
   },
