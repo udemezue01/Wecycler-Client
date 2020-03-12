@@ -49,9 +49,8 @@
 					<a href="" class = "block px-12 py-2 rounded-lg flex items-center justify-between hover:bg-gray-700"> 
 
 						<span class="inline-flex">
-						<svg class = "h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M19 7L18.1327 19.1425C18.0579 20.1891 17.187 21 16.1378 21H7.86224C6.81296 21 5.94208 20.1891 5.86732 19.1425L5 7M10 11V17M14 11V17M15 7V4C15 3.44772 14.5523 3 14 3H10C9.44772 3 9 3.44772 9 4V7M4 7H20" stroke="#f7fafc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>  
-						</svg>
+						<svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
+
 
 						<span class="px-2 font-semibold text-gray-100"> Material</span>
 
@@ -64,27 +63,23 @@
 					<a href="" class = "block px-12 py-2 rounded-lg flex items-center justify-between hover:bg-gray-700"> 
 
 						<span class="inline-flex">
-						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M4 16L4 17C4 18.6569 5.34315 20 7 20L17 20C18.6569 20 20 18.6569 20 17L20 16M16 12L12 16M12 16L8 12M12 16L12 4" stroke="#f7fafc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-							</svg>
+						<svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
 						<span class="px-2 font-semibold text-gray-100"> Pickups</span>
 
 						</span>
-						<span class="font-semibold text-white inline-block">+ 3</span>
+						<!-- <span class="font-semibold text-white inline-block">+ 3</span> -->
 					
 					
 					</a>
 					<a href="" class = "block px-12 py-2 rounded-lg flex items-center justify-between hover:bg-gray-700"> 
 
 						<span class="inline-flex">
-						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M17 20H22V18C22 16.3431 20.6569 15 19 15C18.0444 15 17.1931 15.4468 16.6438 16.1429M17 20H7M17 20V18C17 17.3438 16.8736 16.717 16.6438 16.1429M7 20H2V18C2 16.3431 3.34315 15 5 15C5.95561 15 6.80686 15.4468 7.35625 16.1429M7 20V18C7 17.3438 7.12642 16.717 7.35625 16.1429M7.35625 16.1429C8.0935 14.301 9.89482 13 12 13C14.1052 13 15.9065 14.301 16.6438 16.1429M15 7C15 8.65685 13.6569 10 12 10C10.3431 10 9 8.65685 9 7C9 5.34315 10.3431 4 12 4C13.6569 4 15 5.34315 15 7ZM21 10C21 11.1046 20.1046 12 19 12C17.8954 12 17 11.1046 17 10C17 8.89543 17.8954 8 19 8C20.1046 8 21 8.89543 21 10ZM7 10C7 11.1046 6.10457 12 5 12C3.89543 12 3 11.1046 3 10C3 8.89543 3.89543 8 5 8C6.10457 8 7 8.89543 7 10Z" stroke="#f7fafc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-							</svg>
+						<svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
 
-						<span class="px-2 font-semibold text-gray-100"> Profile</span>
+						<span class="px-2 font-semibold text-gray-100"> Users</span>
 
 						</span>
-						<span class="font-semibold text-white inline-block">+ 3</span>
+						
 					
 					
 					</a>
@@ -103,10 +98,7 @@
 					<a href="" class = "block px-12 py-2 rounded-lg flex items-center justify-between hover:bg-gray-700"> 
 
 						<span class="inline-flex">
-					<svg class = "h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M17.6569 16.6569C16.7202 17.5935 14.7616 19.5521 13.4138 20.8999C12.6327 21.681 11.3677 21.6814 10.5866 20.9003C9.26234 19.576 7.34159 17.6553 6.34315 16.6569C3.21895 13.5327 3.21895 8.46734 6.34315 5.34315C9.46734 2.21895 14.5327 2.21895 17.6569 5.34315C20.781 8.46734 20.781 13.5327 17.6569 16.6569Z" stroke="#4A5568" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M15 11C15 12.6569 13.6569 14 12 14C10.3431 14 9 12.6569 9 11C9 9.34315 10.3431 8 12 8C13.6569 8 15 9.34315 15 11Z" stroke="#f7fafc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						</svg>
+					<svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
 
 						<span class="px-2 font-semibold text-gray-100"> Locations</span>
 
@@ -115,9 +107,32 @@
 					
 					
 					</a>
-					<a href="" class="block text-gray-100 px-12 py-2 font-semibold rounded-lg hover:bg-gray-700">  Recycle</a>
-					<a href="" class="block text-gray-100 px-12 py-2 font-semibold rounded-lg hover:bg-gray-700">  Users</a>
-					<a href="" class="block text-gray-100 px-12 py-2 font-semibold rounded-lg hover:bg-gray-700" v-on:click="logout">  Logout</a>
+
+					<a href="" class = "block px-12 py-2 rounded-lg flex items-center justify-between hover:bg-gray-700"> 
+
+						<svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+
+						<span class="px-2 font-semibold text-gray-100"> Redemption</span>
+
+						</span>
+				
+					
+					
+					</a>
+
+					<a href="" class = "block px-12 py-2 rounded-lg flex items-center justify-between hover:bg-gray-700"> 
+
+						<svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18"></path></svg>
+
+						<span class="px-2 font-semibold text-gray-100 mx-auto" > Logout</span>
+
+						</span>
+				
+					
+					
+					</a>
+
+		
 
 
 				</div>
