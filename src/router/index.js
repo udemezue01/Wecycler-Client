@@ -6,6 +6,10 @@ import Landing from '../views/Landing.vue'
 import Dashboard from '../views/Dashboard.vue'
 import Login from '../views/Login.vue'
 
+//components
+
+import MaterialList from '../components/Material-List.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -19,6 +23,11 @@ const routes = [
     path: '/login',
     name: 'Landing',
     component: Landing
+  },
+ {
+    path: '/material-list',
+    name: 'MaterialList',
+    component: MaterialList
   },
 
 
