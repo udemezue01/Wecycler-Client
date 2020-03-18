@@ -8,7 +8,6 @@ import Login from '../views/Login.vue'
 
 //components
 
-import MaterialList from '../components/Material-List.vue'
 
 Vue.use(VueRouter)
 
@@ -24,12 +23,7 @@ const routes = [
     name: 'Landing',
     component: Landing
   },
- {
-    path: '/material-list',
-    name: 'MaterialList',
-    component: MaterialList
-  },
-
+ 
 
   {
     path: '/dashboard',

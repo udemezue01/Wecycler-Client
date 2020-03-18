@@ -176,7 +176,7 @@
 
 <script>
 
-import Material from '../components/Material.vue'
+import Material from '../components/material/Material.vue'
 
 
 

@@ -34,9 +34,9 @@
 
 <script >
 
-import MaterialList from '../components/Material-List.vue'
+// import MaterialList from '../Material-List.vue'
 
-import MaterialDetail from '../components/Material-Detail.vue'
+// import MaterialDetail from '../Material-Detail.vue'
 
 export default {
 
