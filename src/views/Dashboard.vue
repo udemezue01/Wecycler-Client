@@ -7,7 +7,7 @@
    	
    		
 
-		<nav class="sticky top-0 flex justify-between bg-white px-6 py-4 shadow-md ">
+		<nav class="sticky top-0 flex justify-between bg-white px-6 py-4 ">
 			
 			<div class="flex">
 				<img src="/img/logo.svg" class="h-8 w-24"> 
@@ -47,7 +47,7 @@
 					
 					</a>
 
-					<a class ="block px-6 py-2 rounded-lg flex items-center justify-between hover:bg-gray-700" v-on:click.prevent = "component = 'material-list' "> 
+					<a class ="block px-6 py-2 rounded-lg flex items-center justify-between hover:bg-gray-700" v-on:click.prevent = "component = 'material' "> 
 
 						<span class="inline-flex">
 						<svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="stroke-current text-white w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
@@ -176,17 +176,17 @@
 
 <script>
 
-import MaterialList from '../components/Material-List.vue'
+import Material from '../components/Material.vue'
 
-import MaterialDetail from '../components/Material-Detail.vue'
+
 
 export default{
 
 
 components:{
 
-	'material-list': MaterialList,
-	'material-detail': MaterialDetail,
+	'material': Material,
+
 
 
 
@@ -196,7 +196,7 @@ components:{
 data(){
 	return{
 
-		component:'material-list'
+		component:'material'
 
 	}
 },

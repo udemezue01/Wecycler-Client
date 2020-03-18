@@ -1,14 +1,14 @@
 <template>
 	
 
-<div class="mt-5">	
+<div class="">	
 
 		<!-- The navigational Bar Section -->
 
    	
    		
 
-		<nav class="sticky top-0 flex justify-between bg-white px-12 py-4 shadow-md">
+		<nav class="flex justify-between bg-gray-100 px-12 py-4 shadow-md">
 			
 			<div class="flex">
 				<p> Materials</p>
@@ -25,6 +25,7 @@
 
 				<!-- End of the navigational bar section -->
 
+					<components> </components>
 
 
 </div>
@@ -32,7 +33,19 @@
 </template>
 
 <script >
-	
 
+import MaterialList from '../components/Material-List.vue'
+
+import MaterialDetail from '../components/Material-Detail.vue'
+
+export default {
+
+	components:{
+
+
+	}
+
+
+}
 	
 </script>
