@@ -61,7 +61,21 @@
 					
 					</a>
 
-					<a class = "block px-6 py-2 rounded-lg flex items-center justify-between hover:bg-gray-700"> 
+					<a class ="block px-6 py-2 rounded-lg flex items-center justify-between hover:bg-gray-700" v-on:click.prevent = "component = 'item' "> 
+
+						<span class="inline-flex">
+						<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="stroke-current text-white w-5 h-5"><path d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+
+
+						<span class="px-2 font-semibold text-gray-100"> Item</span>
+
+						</span>
+				
+					
+					
+					</a>
+
+					<a class = "block px-6 py-2 rounded-lg flex items-center justify-between hover:bg-gray-700"v-on:click.prevent = "component = 'pickup' "> 
 
 						<span class="inline-flex">
 						<svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class=" stroke-current text-white w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
@@ -177,6 +191,9 @@
 <script>
 
 import Material from '../components/material/Material.vue'
+import Item from '../components/item/Item.vue'
+import Pickup from '../components/pickup/Pickup.vue'
+// import User from '../components/user/User.vue'
 
 
 
@@ -186,6 +203,8 @@ export default{
 components:{
 
 	'material': Material,
+	'item':Item,
+	'pickup':Pickup
 
 
 
